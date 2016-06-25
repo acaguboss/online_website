@@ -3,21 +3,23 @@ body {
   margin:0;
   background-color:eee;
 }
+
 #page-wrap {
   padding: 0;
   width:1200px;
   margin:0 auto;
   background-color:#ee2e;
 }
+
 .parent {
-  border: 5px solid lightcoral;
+  border: 1px solid lightcoral;
   width: 1200;
 
 }
 
 .item {
   height: 50px;
-  margin: 1px;
+  margin: 0px;
   background: DeepSkyBlue;
   color: white;
   text-align: center;
@@ -26,8 +28,13 @@ body {
 }
 
 .parent{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .item {
@@ -46,7 +53,7 @@ body {
 
 .item:nth-child(3) {
   height:225px;
-  background: darkgreen;
+  background: white;
 }
 
 .item:nth-child(4) {
@@ -56,7 +63,7 @@ body {
 
 .item:nth-child(5) {
   height:225px;
-  background: darkgreen;
+  background: white;
 }
 
 .item:nth-child(6) {
@@ -71,6 +78,8 @@ body {
 
 
 .insideparent {
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
   height:100%;
 }
@@ -78,22 +87,33 @@ body {
   color:black;
   background-color:white;
 
-  flex-grow:1;
+  -webkit-box-flex:1;
+
+      -ms-flex-positive:1;
+
+          flex-grow:1;
 }
 .insideitem:nth-child(1) {
-  flex-grow:3;
+  -webkit-box-flex:3;
+      -ms-flex-positive:3;
+          flex-grow:3;
   background-color: grey;
 }
 
 .reverse {
 
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
 
+  -webkit-box-direction: reverse;
 
+      -ms-flex-direction: row-reverse;
+
+          flex-direction: row-reverse;
 }
 
 
 /* Navigation */
+
 .top{
   background-color: #cccccc;
   height:100%;
@@ -115,6 +135,7 @@ body {
 .top img{
   padding-left:22%;
 }
+
 .top p {
   display: inline;
   justify:right;
@@ -125,5 +146,5 @@ body {
   font-family: 'Open Sans' ;
   font-weight: 100;
   padding-left:2%;
-  
+
 }
