@@ -1,7 +1,28 @@
+
+/*global styles*/
+/*a:focus{
+	outline: thin dotted;
+}
+a:hover, a:active{
+	outline:0;
+}
+a {
+  color: #49a3b2;
+  font-weight: bold;
+  text-decoration:none;
+}*/
+
+/*
+#sidebar a, #page-footer a{
+  color: white;
+}*/
+
+
 body {
   padding:0;
   margin:0;
   background-color:eee;
+    font-family: 'Open Sans' ;
 }
 
 #page-wrap {
@@ -12,7 +33,7 @@ body {
 }
 
 .parent {
-  border: 1px solid lightcoral;
+  /*border: 1px solid lightcoral;*/
   width: 1200;
 
 }
@@ -115,36 +136,109 @@ body {
 /* Navigation */
 
 .top{
-  background-color: #cccccc;
+
+  /*background-image:url("assets/salon-picture.gif")*/
+	/*background-image: url("assets/salon-picture.gif");*/
+		background-image: url("assets/salon-picture2.gif");
+	 background-size: 100%;
   height:100%;
-  background-image: url("assets/salon.gif");
+
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
   background-position: bottom;
 
 }
 .up_grad {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+32,000000+69&0.65+0,0+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.44) 32%, rgba(0,0,0,0.2) 69%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.44) 32%,rgba(0,0,0,0.2) 69%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.44) 32%,rgba(0,0,0,0.2) 69%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.44) 60%, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.44) 60%,rgba(0,0,0,0.2) 80%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.44) 60%,rgba(0,0,0,0.2) 80%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   height: 20%
 
 }
-.top img{
-  padding-left:22%;
+
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
 }
 
-.top p {
-  display: inline;
-  justify:right;
-  padding-left:auto;
-  padding-right: auto;
+li {
+    display: inline;
+    clear:right;
+}
 
-  width:25%;
-  font-family: 'Open Sans' ;
-  font-weight: 100;
-  padding-left:2%;
+li a {
 
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+        text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #111;
+}*/
+
+/*Image Styles*/
+
+/*a img {
+	border:none;
+}
+
+a:hover img{
+	border: 1px solid #eee;
+}*/
+
+
+
+/*Horizontal nav Styles*/
+/*ul,li {
+	marging:0;
+	padding:0;
+	list-style:none;
+}
+
+li{
+	display:inline-block;
+}
+li a{
+	display:block;
+	width:50px;
+	height:50px;
+	background:red;
+}*/
+ul,li {
+	marging:0;
+	padding:0;
+	list-style:none;
+	float:left;
+}
+li a{
+	display:block;
+	width:50px;
+	height:50px;
+
+	padding-right:19%;
+	font-family:'Open Sans' ;
+	font-weight:100;
+	color:white;
+	text-decoration:none;
+
+}
+ul{
+	padding-left:4%;
+	padding-top:1%;
+}
+
+img{
+
+	float:left;
+	padding-left:37%;
 }
