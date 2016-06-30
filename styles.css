@@ -1,28 +1,45 @@
+/*fonts*/
+@font-face {
+    font-family: 'parking';   /* k  */
 
-/*global styles*/
-/*a:focus{
-	outline: thin dotted;
+    src: url('_fonts/symbol-signs.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
 }
-a:hover, a:active{
-	outline:0;
+@font-face {
+    font-family: 'cuts';    /* c  */
+
+    src: url('_fonts/heydings_controls.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
 }
-a {
-  color: #49a3b2;
-  font-weight: bold;
-  text-decoration:none;
-}*/
+@font-face {
+    font-family: 'certify'; /* b  */
 
-/*
-#sidebar a, #page-footer a{
-  color: white;
-}*/
+    src: url('_fonts/heydings_icons.ttf') format('truetype');
 
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'deals'; /* N  */
+
+    src: url('_fonts/Notice2Std.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*MAIN*/
 body {
   padding:0;
   margin:0;
-  background-color:coral;
-    font-family: 'Open Sans' ;
+  background-color:white;
+  font-family: 'Open Sans' ;
 	font-weight:100;
 
 }
@@ -32,6 +49,13 @@ body {
   width:1200px;
   margin:0 auto;
   background-color:#ee2e;
+  box-shadow: 10px 10px 10px #222021;
+}
+
+#wrap {
+
+
+  margin:0 auto;
 }
 
 .parent{
@@ -76,11 +100,13 @@ body {
 
 .item:nth-child(6) {
   height:225px;
-  background: black;
+  background: green;
+  color:white;
+
 }
 
 .item:nth-child(7) {
-  height:1852px;
+  height:1860px;
   background: grey;
 }
 
@@ -139,7 +165,61 @@ padding:0;
 	margin:0px;
 }
 
+.aboutus{
+  width:1200px;
+  height:225px;
+  background-color:black;
+  font-size:1em;
+}
 
+
+.cuts { float:left;
+  font-size:6em;
+  font-family: cuts;
+  margin-left:15%;
+}
+.parking { float:left;
+
+  font-family: parking;
+  font-size:5.8em;
+  margin-top:1%;
+  margin-left:5%;
+}
+
+.certify {float:left;
+
+  font-family: certify;
+  font-size:4.5em;
+  margin-top:1.9%;
+  margin-left:5%;
+
+}
+.deals{float:left;
+font-family: notice;
+
+  font-size:5.5em;
+  margin-top:1.2%;
+  margin-left:5%;
+}
+
+
+.wecut {
+  float:left;
+  margin-top:3.9%;
+
+}
+.conv {
+  float:left;
+  margin-top:3%;
+}
+.hair {
+  float:left;
+  margin-top:3.6%;
+}
+.monthly {
+  float:left;
+  margin-top:3.9%;
+}
 .top{
 
   /*background-image:url("assets/salon-picture.gif")*/
