@@ -1,21 +1,21 @@
 /*fonts*/
 @font-face {
     font-family: 'parking';   /* k  */
-    src: url('_fonts/Symbol.otf') ;
+    src: url('fonts/Symbol.otf') ;
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'cuts';    /* c  */
-    src: url('_fonts/Heydings.ttf') ;
+    src: url('fonts/Heydings.ttf') ;
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'certify'; /* b  */
-    src: url('_fonts/Heydingsi.ttf');
+    src: url('fonts/Heydingsi.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -23,7 +23,7 @@
 
 @font-face {
     font-family: 'deals'; /* N  */
-    src: url('_fonts/Notice2Std.otf');
+    src: url('fonts/Notice2Std.otf');
     font-weight: normal;
     font-style: normal;
 }
