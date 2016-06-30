@@ -66,8 +66,8 @@ body {
 }
 
 .item:nth-child(7) {
-  height:1860px;
-  background: grey;
+  height:1600px;
+  background: #eeeeee;
 }
 
 
@@ -179,5 +179,40 @@ ul{
 /*Images Styles*/
 .insideitem img {
 	float:left;
+}
+
+.social {
+ padding-top:9%;
+ text-align: center;
+}
+
+.social p {
+  color:white;
+
+}
+
+#pagewrap460 {
+  background-color:#eeeeee;
+  height:100%;
+  width:500px;
+  margin: 0 auto;
+}
+
+.Prices {
+  padding-top:90px;
+  font-size:3em;
+  font-family: "Open Sans";
+  text-align:center;
+  line-height: 0.667;
+  padding-bottom: 40px;
+
+}
+
+.prices_text {
+
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  text-align: center;
 
 }
