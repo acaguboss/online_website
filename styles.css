@@ -1,32 +1,4 @@
 /*fonts*/
-@font-face {
-    font-family: 'parking';   /* k  */
-    src: url('fonts/Symbol.otf') ;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'cuts';    /* c  */
-    src: url('fonts/Heydings.ttf') ;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'certify'; /* b  */
-    src: url('fonts/Heydingsi.ttf');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'deals'; /* N  */
-    src: url('fonts/Notice2Std.otf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*MAIN*/
 body {
@@ -88,8 +60,8 @@ body {
 
 .item:nth-child(6) {
   height:225px;
-  background: green;
-  color:white;
+  background-image: url("assets/about-us.png");
+  background-color: black;
 
 }
 
@@ -153,61 +125,8 @@ padding:0;
 	margin:0px;
 }
 
-.aboutus{
-  width:1200px;
-  height:225px;
-  background-color:black;
-  font-size:1em;
-}
 
 
-.cuts { float:left;
-  font-size:6em;
-  font-family: 'cuts';
-  margin-left:15%;
-}
-.parking { float:left;
-
-  font-family: 'parking';
-  font-size:5.8em;
-  margin-top:1%;
-  margin-left:5%;
-}
-
-.certify {float:left;
-
-  font-family: 'certify';
-  font-size:4.5em;
-  margin-top:1.9%;
-  margin-left:5%;
-
-}
-.deals{float:left;
-font-family: 'notice';
-
-  font-size:5.5em;
-  margin-top:1.2%;
-  margin-left:5%;
-}
-
-
-.wecut {
-  float:left;
-  margin-top:3.9%;
-
-}
-.conv {
-  float:left;
-  margin-top:3%;
-}
-.hair {
-  float:left;
-  margin-top:3.6%;
-}
-.monthly {
-  float:left;
-  margin-top:3.9%;
-}
 .top{
 	background-image: url("assets/salon-picture2.gif");
 	 background-size: 100%;
