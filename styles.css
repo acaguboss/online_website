@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'parking';   /* k  */
 
-    src: url('_fonts/symbol.otf') format('truetype');
+    src: url('_fonts/symbol.otf') ;
 
     font-weight: normal;
     font-style: normal;
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'cuts';    /* c  */
 
-    src: url('_fonts/heydings.ttf') format('truetype');
+    src: url('_fonts/heydings.ttf') ;
 
     font-weight: normal;
     font-style: normal;
@@ -18,7 +18,7 @@
 @font-face {
     font-family: 'certify'; /* b  */
 
-    src: url('_fonts/heydingsi.ttf') format('truetype');
+    src: url('_fonts/heydingsi.ttf');
 
     font-weight: normal;
     font-style: normal;
