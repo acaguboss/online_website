@@ -182,17 +182,15 @@ ul{
 }
 
 .social {
- padding-top:0.5%;
+ padding-top:1.2em;
  text-align: center;
 }
 
-.social p {
-
-text-align: center;
-margin-top:5em;
-padding:0;
-margin-bottom:0;
-color:white
+.checkus {
+  color:white;
+  text-align:center;
+  padding-top:7em;
+  margin:0;
 }
 
 #pagewrap460 {
