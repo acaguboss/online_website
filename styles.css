@@ -1,27 +1,21 @@
 /*fonts*/
 @font-face {
     font-family: 'parking';   /* k  */
-
     src: url('_fonts/Symbol.otf') ;
-
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'cuts';    /* c  */
-
     src: url('_fonts/Heydings.ttf') ;
-
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'certify'; /* b  */
-
     src: url('_fonts/Heydingsi.ttf');
-
     font-weight: normal;
     font-style: normal;
 
@@ -29,12 +23,9 @@
 
 @font-face {
     font-family: 'deals'; /* N  */
-
     src: url('_fonts/Notice2Std.otf');
-
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*MAIN*/
@@ -53,12 +44,6 @@ body {
   margin:0 auto;
   background-color:#ee2e;
   box-shadow: 10px 10px 10px #222021;
-}
-
-#wrap {
-
-
-  margin:0 auto;
 }
 
 .parent{
@@ -224,13 +209,9 @@ font-family: 'notice';
   margin-top:3.9%;
 }
 .top{
-
-  /*background-image:url("assets/salon-picture.gif")*/
-	/*background-image: url("assets/salon-picture.gif");*/
-		background-image: url("assets/salon-picture2.gif");
+	background-image: url("assets/salon-picture2.gif");
 	 background-size: 100%;
   height:100%;
-
   background-repeat: no-repeat;
   background-position: bottom;
 
