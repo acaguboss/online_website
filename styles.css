@@ -146,30 +146,52 @@ padding:0;
 }
 
 
-/*Horizontal nav Styles*/
+/*Horizontal  Styles*/
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+nav {
+
+}
 
 ul,li {
-	marging:0;
+	margin:0;
 	padding:0;
 	list-style:none;
-	float:left;
+  float:left;
+
 }
-li a{
+
+
+
+li {
 	display:block;
-	width:50px;
-	height:50px;
-
-	padding-right:29%;
-	font-family:'Open Sans' ;
-	font-weight:100;
-	color:white;
-	text-decoration:none;
-
+  line-height:2em;
+  padding: 0 1em;
 }
-ul{
+a{
+  font-family:'Open Sans' ;
+	font-weight:100;
+  text-decoration:none;
+  color:white;
+}
+/*ul{
 	padding-left:4%;
 	padding-top:1%;
-}
+}*/
 
 .up_grad img{
 
