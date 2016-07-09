@@ -171,16 +171,22 @@ ul,li {
 	margin:0;
 	padding:0;
 	list-style:none;
-  float:left;
+  float:right;
 
+}
+ul{
+  /*background:blue;*/
+  margin-right:20px;
 }
 
 
-
 li {
+  margin-left: 20px;
+  margin-top: 10px;
 	display:block;
   line-height:2em;
   padding: 0 1em;
+
 }
 a{
   font-family:'Open Sans' ;
