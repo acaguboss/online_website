@@ -69,7 +69,12 @@ body {
   height:1600px;
   background: #eeeeee;
 }
-
+.item:nth-child(8) {
+  height:725px;
+  background: #eeeeee;
+  
+  background-image: url("assets/products_1200_725.png");
+}
 
 .insideparent {
   display:-webkit-box;
