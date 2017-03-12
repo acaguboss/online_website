@@ -59,7 +59,7 @@ body {
 }
 
 .item:nth-child(6) {
-  height:350px;
+  height:375px;
   background-image: url("assets/about-us.png");
   background-repeat:no-repeat;
   background-color: black;
