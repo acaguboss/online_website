@@ -67,7 +67,7 @@ body {
 }
 .item:nth-child(6) h4 { 
   color:white;
-  font-size:110%;
+  font-size:100%;
   padding: 1%;
   font-family: 'Open Sans';
   font-weight:100;
